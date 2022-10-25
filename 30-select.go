@@ -1,5 +1,7 @@
 package main
 
+// https://gobyexample.com/select
+
 import (
 	"fmt"
 	"time"
