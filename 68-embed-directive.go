@@ -24,9 +24,11 @@ func main() {
 	content2, _ := folder.ReadFile("folder/file2.hash")
 	print(string(content2))
 
-	// $ mkdir -p folder
-	// $ echo "hello go" > folder/single_file.txt
-	// $ echo "123" > folder/file1.hash
-	// $ echo "456" > folder/file2.hash
-	// $ go run embed-directive.go
+	/*
+		mkdir -p folder
+		echo "hello go" > folder/single_file.txt
+		echo "123" > folder/file1.hash
+		echo "456" > folder/file2.hash
+		go run embed-directive.go
+	*/
 }
